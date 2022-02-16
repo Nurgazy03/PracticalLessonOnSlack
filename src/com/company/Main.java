@@ -9,6 +9,7 @@ public class Main {
                 new Car("Mercedes - Benz"), new OffRoadVehichical("Dodge"), new Bus("Nef A3")};
 
         for (AbstractVehichal vehicle2 : vehicle) {
+
             if (vehicle2 instanceof Car) {
                 ((Car) vehicle2).be();
                 ((Car) vehicle2).drift();
@@ -38,7 +39,6 @@ public class Main {
                 ((Bus) vehicle2).transportation();
                 ((Bus) vehicle2).turn2();
 
-                System.out.println("------------------------------------------");
 
             }
 
@@ -104,6 +104,7 @@ public class Main {
                 ((Speedboat)vehicle2).racer();
                 ((Speedboat)vehicle2).attack();
 
+                System.out.println("------------------------------------------");
             }
 
         }

@@ -9,7 +9,7 @@ public class Helicopter extends AbstractAirVehichal{
 
     @Override
     public void be() {
-        System.out.println(getModel()+" be vehicle ");
+        System.out.println(getModel()+" can be vehicle ");
     }
 
     @Override
